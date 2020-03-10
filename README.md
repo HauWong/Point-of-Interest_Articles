@@ -5,6 +5,8 @@
 
 # 目录
 ## #1 城市场景分类
+> 内容简介（[urban scene classification](/content/%231%20urban%20scene%20classification))）
+
 ### 中文 - 2篇
 
 - 2016 - 基于POI数据的城市功能区定量识别及其可视化 - 池娇
@@ -27,6 +29,8 @@
 - 2020 - Large-scale urban functional zone mapping by integrating remote sensing images and open social data
 
 ## #2 POI推荐
+> 内容简介（[poi recommendation](content/%232%20poi%20recommendation)）
+
 ### 中文
 
 ### 英文 - 11篇
@@ -44,6 +48,8 @@
 - 2020 - Modeling hierarchical category transition for next POI recommendation with uncertain check-ins
 
 ## #3 城市相关指标分析
+> 内容简介（[analysis of indicators](/content/%233%20analysis%20of%20indicators)）
+
 ### 中文 - 2篇
 
 - 2018 - 基于POI 数据的城市功能区识别及主要交通枢纽空间分析
@@ -58,6 +64,8 @@
 - 2020 - Identifying and evaluating poverty using multisource remote sensing and point of interest (POI) data: A case study of Chongqing, China
 
 ## #4 其他
+> 内容简介（[others](/content/%234%20others)）
+
 ### 中文
 
 ### 英文 - 3篇
@@ -66,4 +74,4 @@
 - 2019 - Land Use Regression models for 60 volatile organic compounds: Comparing Google Point of Interest (POI) and city permit data
 - 2020 - Analyzing parcel-level relationships between Luojia 1-01 nighttime light intensity and artificial surface features across Shanghai, China: A comparison with NPP-VIIRS data
 
-> 交流邮箱: [haowang_rs@foxmail.com](haowang_rs@foxmail.com)
+> 交流邮箱：haowang_rs@foxmail.com
