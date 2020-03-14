@@ -1,4 +1,4 @@
-> 共3篇
+> 共4篇
 
 - **2015 - Mining point-of-interest data from social networks for urban land use classification and disaggregation**
     - **内容**：本文使用一种方法能有效地将VGI数据转换为一种城市规划可用的标准化信息，尤其是用于估计城市用地类型。本文从不同来源中获取POI，并将其转换为一种标准格式。
@@ -13,3 +13,6 @@
         1. 数据预处理：NTL数据几何校正、辐射定标，OSM数据分割地块；
         2. 特征提取：在地块等级提取POI和LULC共29个变量及夜间灯光强度；
         3. 建模与分析：用随机森林回归模型分析变量的重要性和特征贡献，并对比分析两种NTL数据。
+
+- **2014 - A Semantic-Enhanced Augmented Reality Tool for OpenStreetMap POI Discovery - Michele Ruta**
+	- **内容**：开发了一种面向移动设备的增强现实工具，基于OSM数据标注在设备实时图像上显示POI标注。

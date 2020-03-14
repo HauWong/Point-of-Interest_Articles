@@ -1,4 +1,4 @@
-> 共11篇
+> 共14篇
 
 - **2014 - Graph-based Point-of-interest Recommendation with Geographical and Temporal Influence**
     - **内容**：研究发现：(1)用户倾向于访问附近的地方，(2)用户倾向于在不同的时间段访问不同的地方，而在同一时间段，用户倾向于定期访问相同的地方。本文重点讨论了基于时间感知的POI推荐问题，其目的是为用户推荐一个在特定时间访问的POI列表。本文提出了基于广度优先的偏好传播算法，通过构建地理空间影响感知图（Geographical-Temporal influences Aware Graph，GTAG）实现签到记录、地理影响和时间影响之间建模。
@@ -23,6 +23,10 @@
         1. 使用概率统计分析挖掘用户活动和签到行为的相似特征，以及时间因素的多样性和连续性特征；
         2. 利用K-Means方法将用户分为活跃用户和非活跃用户，并基于所提取的特征设计了一个相似用户过滤算法；
         3. 最后利用不同时间段的余弦相似度平滑技术实现POI推荐，该算法能根据用户的活动自适应调整。
+
+- **2018 - Analysis of user preference and expectation on shared economy platform: An examination of correlation between points of interest on Airbnb - Moloud Abdar**
+	- **内容**：本文通过计算兴趣点到城市中心和主要地铁站之间的距离，设计了三个度量标准：受欢迎点、排名前n点和平均距离点，探索了Airbnb推荐兴趣点与用户偏好之间的相关关系。
+
 - **2019 - Using POI functionality and accessibility levels for delivering personalized tourism recommendations**
     - **内容**：本文提出一种基于用户和兴趣点的旅游推荐系统，该系统综合考虑了用户的生理和心理限制，此外本文也提出一种考虑POI可达性的POI分类方法。
     - **方法**：
@@ -42,6 +46,15 @@
         2. 地理-时间注意力网络：建立地理关系→建立序列依赖
         3. Co-Attention网络：采用一种隐含的融合策略来连接加权注意力值和非线性连接层来学习动态用户偏好；
         4. 模型学习与优化。
+
+- **2019 - VCG: Exploiting visual contents and geographical influence for Point-of-Interest recommendation - Zhibin Zhang**
+	- **内容**：本文提出一种新的POI推荐框架，该框架将LBSN中图像（由用户上传至平台）与地理信息的影响相结合。
+	- **方法**：
+		1. 首先采用CNN来处理用户于平台上传的图像，去掉AlexNet网络的最后两层，得到一个长度为4096的向量，即视觉内容的特征；
+		2. 采用非负矩阵因式分解法构建POI群组，分别建立POI与群组的关系模型、POI与邻居POI的关系模型，并联合视觉内容与POI改进矩阵分解框架；
+		3. 采用基于幂律分布的方法对地理影响进行建模；
+		4. 融合视觉-POI联系影响和地理影响计算最终得分，对归一化后的用户-POI得分估计，得到推荐列表。
+
 - **2020 - Heterogeneous graph-based joint representation learning for users and POIs in location-based social network**
     - **内容**：由于（Location-based social network）LBSN中的一些上下文因子（地理影响、用户社会关系及时间信息等）之间存在异质性，很难从其中学习隐含表达。本文针对LBSN中的用户和POI提出一种新的联合表达学习框架（UP2VEC），构建一种异构图来整合上述因子。并进行了POI推荐和社交链接预测实验。
     - **方法**：
@@ -59,3 +72,6 @@
             2. GLR_GT_LSTM方法采用LSTM对用户复杂的连续迁移行为进行建模。
 - **2020 - Modeling hierarchical category transition for next POI recommendation with uncertain check-ins**
     - **内容**：用户常常会留下一些无法精确到单个POI的签到信息，这些签到信息往往出现在一个POI集合中，然而在签到信息不准确的情况下，很难学习到准确的用户迁移模式，同时也加剧了冷启动的问题。为此，本文设计了一种多层类别变化框架（HCT），利用不同层次的类别变化在不同粒度上发现用户的偏好迁移模式。
+
+- **2020 - A point-of-interest suggestion algorithm in Multi-source geo-social networks - Xi Xiong**
+	- **内容**：本文提出一种潜在的概率生成模型MTAS，通过考虑隐含变量（可表达用户在LBSN和MBSN中发表评论的趋势）的决策概率，能够从LBSN和MBSN中提取用户话题中的隐含信息，在MTAS的基础上，设计了一个框架以实现为用户提供POI建议。
