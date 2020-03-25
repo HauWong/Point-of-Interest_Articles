@@ -9,11 +9,12 @@
 ## #1 城市场景分类
 > 内容简介（[urban scene classification](/content/%231%20urban%20scene%20classification))）
 
-### 中文 - 3篇
+### 中文 - 4篇
 
 - 2016 - 基于潜在语义信息的城市功能区识别——广州市浮动车GPS时空数据挖掘 - 陈世莉
 - 2016 - 基于POI数据的城市功能区定量识别及其可视化 - 池娇
 - 2018 - 基于POI 数据的城市功能区识别及主要交通枢纽空间分析
+- 2018 - 融合多源地理大数据的杭州市功能区识别和空间优化研究 - 赵智勇
 
 ### 英文 - 14篇
 
@@ -73,12 +74,13 @@
 - 2019 - 基于手机定位数据的深圳市热浪人口暴露度分析
 - 2020 - 基于大数据的上海中心城区建成环境与城市活力关系分析 - 塔娜
 
-### 英文 - 12篇
+### 英文 - 13篇
 
 - 2014 - Fine-resolution population mapping using OpenStreetMap points-of-interest
 - 2018 - Dynamic assessments of population exposure to urban greenspace using multi-source big data
 - 2018 - Temporal and Spatial Variation Characteristics of Catering Facilities Based on POI Data: A Case Study within 5th Ring Road in Beijing
 - 2018 - Using points-of-interest data to estimate commuting patterns in central Shanghai, China - Mengya Li
+- 2018 - Urban Impervious Surface Estimation from Remote Sensing and Social Data - Yan Yu
 - 2019 - Exploration on the spatial spillover effect of infrastructure network on urbanization: A case study in Wuhan urban agglomeration - Chen Zeng
 - 2019 - Understanding the impact of built environment on metro ridership using open source in Shanghai - Dadi An
 - 2019 - Spatiotemporal distribution characteristics and mechanism analysis of urban population density: A case of Xi'an, Shaanxi, China Jingang - Jingang Li

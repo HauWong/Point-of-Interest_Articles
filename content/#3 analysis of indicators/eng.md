@@ -1,4 +1,4 @@
-> 共12篇
+> 共13篇
 
 - **2014 - Fine-resolution population mapping using OpenStreetMap points-of-interest**
     - **内容**：本文利用建筑物足迹和POI数据作为辅助数据来估算城市人口在建筑物尺度上的分布。
@@ -23,6 +23,13 @@
 		1. 对POI进行分级分类，通过调查重要POI点的职工以估算基于二级POI类型的就业数量，然后按类别统计每个城区的POI数量，并基于此计算得到在每500m的格网内的就业数量，绘制就业密度图；
 		2. 分别以个人驾车时间与公共驾驶时间的最小值估算城区中心之间的旅行时间矩阵；
 		3. 采用TSME程序和重力模型计算城区间的交通流量，进而估算通勤距离，分析通勤模式。
+
+- **2018 - Urban Impervious Surface Estimation from Remote Sensing and Social Data - Yan Yu**
+	- **内容**：分别从遥感影像和社交媒体数据中提取物理特征和社会特征，从像素和地块尺度实现城市不透水面的估算。
+	- **方法**：
+		1. 首先采用MAPs（Morphological attribute profiles，一种对遥感影像进行空间属性提取的工具）从遥感影像中提取四种空间属性，并置于SMA（Spectral mixture analysis）模型中估算城市不透水地表的物理特征；
+		2. 将POI分为透水型和不透水型，对于两种POI数据分别从基于像素和基于地块两个尺度进行核密度估计；
+		3. 将物理特征和社会特征融合于一个多元线性回归模型，利用该模型对不透水地表进行估算。
 
 - **2019 - Exploration on the spatial spillover effect of infrastructure network on urbanization: A case study in Wuhan urban agglomeration - Chen Zeng**
 	- **内容**：本文通过对2005年和2015年武汉城市空间模型的建模，提出基于道路网和基于POI两种假设探讨了基础设施网落对城市化的空间溢出效应。
